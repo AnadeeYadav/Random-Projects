@@ -1,0 +1,68 @@
+.root{
+  --primary-color: #fff;
+  --secondary-color: black;
+  --span-color: grey;
+}
+
+.dark-theme{
+  --primary-color: black;
+  --secondary-color: #fff;
+  --span-color: orange;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--primary-color);
+}
+
+navbar{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  top: 10px;
+  left: 10px;
+
+  
+}
+
+ul{
+  list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+   text-decoration: none;
+    
+}
+
+a{
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+
+img{
+  position: absolute;
+  cursor: pointer;
+  right: 10px;
+  top: 10px;
+}
+
+li{
+  margin: 20px;
+}
+
+.content{
+  position: absolute;
+  bottom: 50%;
+  left: 20px;
+  color: var(--secondary-color);
+}
+
+span{
+  color: var(--span-color);
+}
